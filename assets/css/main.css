@@ -1,0 +1,83 @@
+/* 
+Custom CSS for...
+'Modern Business' HTML Theme by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0. 
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+*/
+
+/* Global Styles */
+
+
+
+html, body { height: 100%; }
+body { padding-bottom: 20px; }
+.dropdown { cursor: pointer; }
+.img-home-portfolio, .img-customer, .portfolio-item { margin-bottom: 30px; }
+.tab-pane { margin-top: 15px; }
+
+/* Page Sections */
+.section, .section-colored { padding: 50px 0; }
+.section-colored { background-color: #e1e1e1;    /* change this to change the background color of a colored section */ }
+.sidebar { margin-top: 40px; }
+.sidebar ul { border-radius: 5px; padding: 5px; border: 1px solid #cccccc; }
+.fill { width: 100%; height: 100%; background-position: center; background-size: cover; }
+
+/* Social Icons Styles */
+.list-social-icons { margin-bottom: 45px; }
+.tooltip-social a { text-decoration: none; color: inherit; }
+.facebook-link a:hover { color: #3b5998; }
+.linkedin-link a:hover { color: #007fb1; }
+.twitter-link a:hover { color: #39a9e0; }
+.google-plus-link a:hover { color: #d14836; }
+
+/* Service Page Styles */
+.service-icon { font-size: 50px; }
+
+/* 404 Page Styles */
+.error-404 { font-size: 8em; }
+
+/* Pricing Page Styles */
+.price { font-size: 4em; }
+.price-cents { vertical-align: super; font-size: 50%; }
+.price-month { font-size: 35%; font-style: italic; }
+
+/* Footer Styles */
+footer { margin: 50px 0; color: #fff; }
+.row { margin-bottom: 20px; }
+.horizontal-collapse { height: 400px; }
+.navbar-inverse .navbar-nav>li>a { color: #fff; }
+.navbar-inverse .navbar-nav>li>a:hover { font-size: 1.1em; }
+.navbar-inverse .navbar-nav>li>a:active { color: #808080; }
+
+/*@HOME*/
+
+/*font Ubuntu - orange color (#f69220) - grey footer color (#231f20) 80%op
+*/
+
+#header-top .widget-contact ul li i, .widget-contact ul li a { color: #f69220; }
+#header-top { padding: 14px 0px 0px 0px; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06); }
+.navbar { position: relative; min-height: 50px; margin-bottom: 0px; border: 0px solid transparent; }
+.navbar-inverse { background-image: -webkit-linear-gradient(top, #f69220  0, #f69220  100%); background-image: -o-linear-gradient(top, #f69220  0, #f69220  100%); background-image: -webkit-gradient(linear, left top, left bottom, from(#d42f00), to(#f69220)); background-image: linear-gradient(to bottom, #f69220  0, #f69220  100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0); filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); background-repeat: repeat-x; border-radius: 4px; }
+.SlideText { font-size: 40px; background-color: rgba(246, 146, 32, 0.8); max-width: 20vw; min-width: 100px; text-align: left; line-height: 40px; padding: 10px; border-radius: 4px; margin: 10px; }
+.btn-homeservice { background-image: -webkit-linear-gradient(top, #f69220 0, #f69220 100%); background-image: -o-linear-gradient(top, #f69220 0, #f69220 100%); background-image: -webkit-gradient(linear, left top, left bottom, from(#f69220), to(#f69220)); background-image: linear-gradient(to bottom, #f69220 0, #f69220 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f69220', endColorstr='#f69220', GradientType=0); filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); background-repeat: repeat-x; border-color: #000; color: #fff; }
+.btn-homeservice:hover { background-color: #cd7a1b; }
+.btn:before { background-color: #cd7a1b; color: #fff; }
+.carousel-control.right { background-image: -webkit-linear-gradient(left, rgba(246, 146, 32, .0001) 0, rgba(246, 146, 32, .5) 100%); background-image: -o-linear-gradient(left, rgba(246, 146, 32, .0001) 0, rgba(246, 146, 32, .5) 100%); background-image: -webkit-gradient(linear, left top, right top, from(rgba(246, 146, 32, .0001)), to(rgba(246, 146, 32, .5))); background-image: linear-gradient(to right, rgba(246, 146, 32, .0001) 0, rgba(246, 146, 32, .5) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1); }
+.carousel-control.left { background-image: -webkit-linear-gradient(left, rgba(246, 146, 32, .5) 0, rgba(246, 146, 32, .0001) 100%); background-image: -o-linear-gradient(left, rgba(246, 146, 32, .5) 0, rgba(246, 146, 32, .0001) 100%); background-image: -webkit-gradient(linear, left top, right top, from(rgba(246, 146, 32, .5)), to(rgba(246, 146, 32, .0001))); background-image: linear-gradient(to right, rgba(246, 146, 32, .5) 0, rgba(246, 146, 32, .0001) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1); }
+.round { border: 1px solid #f69220; padding: 40px; border-radius: 50px; color: #f69220; margin: 10px 0px; margin: 15px; display: inline-block; font-size: 20px; }
+.roundactive { background-color: #f69220; color: #fff; }
+.vertical-center { min-height: 100%; min-height: 100vh; display: flex; align-items: center; }
+.addat { margin-left: -20px; color: #f69220; }
+.mainfooter { background-color: #231f20; min-height: 20vh; display: block; }
+.mainfooter h5, .mainfooter a { color: #fff; }
+#backtop.light { bottom: 30px; right: 30px;  }
+#backtop.light button {    height: 40px; width: 40px; color: black; background: white; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border: 1px solid #f69220 }
+#backtop.light button:hover, #backtop.light button:focus { background: #f1f1f1 }
+#backtop.light button:active { -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6); -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6); box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6); background: #fafafa }
+#backtop { opacity: 0; transition: all .3s ease-out; position: fixed }
+#backtop button { outline: none; border: 0 }
+#backtop button:hover { cursor: pointer }
+.show { opacity: 1 !important }
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>li>a:active{color:#000;font-size: 1.1em;}
+.paddingoff {padding-right:0px;padding-left: 0px;}

@@ -1,0 +1,131 @@
+<div ng-controller="CarouselDemoCtrl">
+	<div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+		<div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+			<img ng-src="{{slide.image}}" style="margin:auto;">
+			<div class="carousel-caption">
+				<!--           <h4>Τίτλος {{slide.id}}</h4>
+				-->          <div class="SlideText">{{slide.text}}</div>
+				<a href="" class="btn btn-homeservice pull-left">Περισσoτερα</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12 text-center">			
+			<div class="col-md-4 wow fadeInDown">				
+				<i class="mt-icon-screen1 round"></i>				
+				<div class="step-details ">					
+					<h6>Modern design</h6>					
+				</div><!-- step-details -->					
+			</div><!-- step -->					
+			<div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">						
+				<i class="mt-icon-films round"></i>						
+				<div class="step-details">							
+					<h6>Video background</h6>							
+				</div><!-- step-details -->
+			</div><!-- step -->
+							
+			<div class="col-md-4 wow fadeInDown" data-wow-delay="0.4s">
+				<i class="mt-icon-android round"></i>
+				<div class="step-details">
+					<h6>Brain storm</h6>
+				</div><!-- step-details -->
+			</div><!-- step -->
+		</div><!-- col -->
+	</div><!-- row -->
+</div><!-- container -->
+	<div class="vertical-center">
+		<div class="col-lg-7 col-md-7">
+			<img src="https://dummyimage.com/800x400/000/fff" alt="athome">
+		</div>
+		<div class="col-lg-5 col-md-5">
+			<h3><i class="fa fa-pencil"></i> Ready to Style &amp; Edit</h3>
+			<p>You're ready to go with this pre-built page structure, now all you need to do is add your own custom stylings! You can see some free themes over at <a href="http://bootswatch.com">Bootswatch</a>, or come up with your own using <a href="http://getbootstrap.com/customize/">the Bootstrap customizer</a>!</p>
+			<div class="col-md-12">
+				<a href="" class="btn btn-homeservice">Περισσoτερα</a>
+			</div>
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /.section -->
+									
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12">
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+					<h2>ΟΙ ΥΠΗΡΕΣΙΕΣ ΜΑΣ</h2>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<h5><span class="addat">@</span> Computer Service</h5>
+					<p>Donec tempus lobortis nibh.Mauris ac massa in sem ultricessuscipit sed. Maecenaspretiumnon justo at fermentum</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<h5><span class="addat">@</span> Κατασκευή Σφραγίδων</h5>
+					<p>Donec tempus lobortis nibh.Mauris ac massa in sem ultricessuscipit sed. Maecenaspretiumnon justo at fermentum</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<h5><span class="addat">@</span> Επισκευή Laptop</h5>
+					<p>Donec tempus lobortis nibh.Mauris ac massa in sem ultricessuscipit sed. Maecenaspretiumnon justo at fermentum</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<h5><span class="addat">@</span> iPhone Service</h5>
+					<p>Donec tempus lobortis nibh.Mauris ac massa in sem ultricessuscipit sed. Maecenaspretiumnon justo at fermentum</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<h5><span class="addat">@</span> Γέμισμα Μελανιών</h5>
+					<p>Donec tempus lobortis nibh.Mauris ac massa in sem ultricessuscipit sed. Maecenaspretiumnon justo at fermentum</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<h5><span class="addat">@</span> Web Design</h5>
+					<p>Donec tempus lobortis nibh.Mauris ac massa in sem ultricessuscipit sed. Maecenaspretiumnon justo at fermentum</p>
+				</div>
+				<div class="col-md-12 text-center">
+					<a href="" class="btn btn-homeservice">Περισσoτερα</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<div class="col-md-4 col-md-offset-8">
+					<h1><strong>Service</strong></h1>
+					<h2>PC</h2>
+					<h2>Laptop</h2>
+					<h2>Tablet</h2>
+					</div>
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-1">
+					<i class="fa fa-angle-right" aria-hidden="true" style="font-size: 190px;"></i>
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-5">
+					<img src="https://dummyimage.com/800x400/000/fff" alt="athome">
+				</div>
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+	</div>
+	<div class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 col-md-5 col-sm-5">
+					<img src="https://dummyimage.com/800x400/000/fff" alt="athome">
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-1">
+					<i class="fa fa-angle-left" aria-hidden="true" style="font-size: 190px;"></i>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<h1><strong>Service</strong></h1>
+					<h2>Iphone</h2>
+					<h2>Laptop</h2>
+					<h2>Tablet</h2>
+				</div>				
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+	</div>

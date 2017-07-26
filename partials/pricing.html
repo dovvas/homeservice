@@ -1,0 +1,67 @@
+<div class="col-md-12 paddingoff">
+    <img src="https://dummyimage.com/1980x200/000/fff" alt="athome" class="img-responsive">
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Our Services
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="../index.html">Home</a>
+                </li>
+                <li class="active">Services</li>
+            </ol>
+        </div>
+    </div>
+
+<div class="container">
+    <div class="row">
+    	<div class="col-md-12">
+    		<div class="col-md-4">
+    			<h5><i class="fa fa-desktop" aria-hidden="true" style="color:#ff5252"></i> Computer Service</h5>
+    			<p>Duis aute irure dolor in reprehenderitin dolor velit esse cillum dolore eu fugiat</p>
+    		</div>
+    		<div class="col-md-4">
+    			<h5><i class="fa fa-desktop" aria-hidden="true" style="color:#1976d2"></i> iPhone Service</h5>
+    			<p>Duis aute irure dolor in reprehenderitin dolor velit esse cillum dolore eu fugiat</p>
+    		</div>
+    		<div class="col-md-4">
+    			<h5><i class="fa fa-desktop" aria-hidden="true" style="color:#ffeb3b"></i> Laptop Service</h5>
+    			<p>Duis aute irure dolor in reprehenderitin dolor velit esse cillum dolore eu fugiat</p>
+    		</div>
+    	</div>
+    	<div class="col-md-12">
+    		<div class="col-md-4">
+    			<h5><i class="fa fa-desktop" aria-hidden="true" style="color:#ff5722"></i> Toner refill</h5>
+    			<p>Duis aute irure dolor in reprehenderitin dolor velit esse cillum dolore eu fugiat</p>
+    		</div>
+    		<div class="col-md-4">
+    			<h5><i class="fa fa-desktop" aria-hidden="true" style="color:#455a64"></i> Κατασκευή Σφραγίδων</h5>
+    			<p>Duis aute irure dolor in reprehenderitin dolor velit esse cillum dolore eu fugiat</p>
+    		</div>
+    		<div class="col-md-4">
+    			<h5><i class="fa fa-desktop" aria-hidden="true" style="color:#4caf50"></i> Web Design</h5>
+    			<p>Duis aute irure dolor in reprehenderitin dolor velit esse cillum dolore eu fugiat</p>
+    		</div>
+    	</div>
+    </div>
+</div>
+
+    <div class="row">
+    	<div class="col-md-12">
+			<span class="col-md-3 text-center" ng-click="$parent.msg='Computer Service'"><a href="" class="btn btn-warning" ng-click="selectedTemplate.path = 'partials/service1.html'">Computer Service</a></span>
+		    <span class="col-md-3 text-center" ng-click="$parent.msg='iPhone Service'" ><a href="" class="btn btn-warning" ng-click="selectedTemplate.path = 'partials/service2.html'">iPhone Service</a></span>
+		    <span class="col-md-3 text-center" ng-click="$parent.msg='Laptop Service'"><a href="" class="btn btn-warning" ng-click="selectedTemplate.path = 'partials/service3.html'">Laptop Service</a></span>
+		    <span class="col-md-3 text-center" ng-click="$parent.msg='Toner refill'"><a href="" class="btn btn-warning" ng-click="selectedTemplate.path = 'partials/service4.html'">Toner refill</a></span>
+		    <span class="col-md-3 text-center" ng-click="$parent.msg='Κατασκευή Σφραγίδων'" ><a href="" class="btn btn-warning" ng-click="selectedTemplate.path = 'partials/service5.html'">Κατασκευη Σφραγιδων</a></span>
+		    <span class="col-md-3 text-center" ng-click="$parent.msg='Web Design'"><a href="" class="btn btn-warning" ng-click="selectedTemplate.path = 'partials/service6.html'">Web Design</a></span>
+    	</div>
+
+    	<div class="col-md-12 text-center">
+			<h3 class="text-center">{{msg}}</h3>
+            <div data-ng-include="selectedTemplate.path"></div>
+    	</div>
+    </div>
+</div>
+<!-- /.container -->
+
